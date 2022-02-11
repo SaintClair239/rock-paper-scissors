@@ -4,11 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     
-    
+    <div class="wrapper">
+        <div class="container">
+            <div class="title">ROCK, PAPER, SCISSORS</div>
+            <div class="under-title">First to score 5 points wins the game</div>
+            <div class="round-number">ROUND 1</div>
+
+            <div class="score-name">
+                <div class="player-score counter">WIN</div>
+                <div class="tie counter">TIE</div>
+                <div class="computer-score counter">WIN</div>
+            </div>
+            <div class="score-number">
+                <div class="player-score-number scores">0</div>
+                <div class="tie-score scores">0</div>
+                <div class="computer-score-number scores">0</div>
+            </div>
+            <div class="play-content">
+                <div class="player-box brown-box">
+                    <img src="./resources/rock-player.png" alt="choice" class="choice1">
+                    <div class="buttons">
+                        <input type="image" src="./resources/rock-button.png" class="player-choice-button rock" id="rock" />
+                        <input type="image" src="./resources/paper-button.png" class="player-choice-button paper" id="paper" />
+                        <input type="image" src="./resources/scissors-button.png" class="player-choice-button scissors" id="scissors" />
+                    </div>
+                </div>
+                <div class="center-text">
+                    <button class="play-again">PLAY AGAIN</button>
+                    <div class="mid-text">CHOOSE YOUR WEAPON</div>
+                </div>
+                <div class="comp-box brown-box">
+                    <img src="./resources/rock-comp.png" alt="comp" class="choice2" id="comp-choice">
+                    <div class="computer">COMPUTER</div>
+                </div>
+            </div>  
+            <div class="credits">Copyright © 2022 SaintClair239</div>
+        </div> 
+    </div>
 </body>
 </html>

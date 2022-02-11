@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-image: url(./resources/bgrndimg.png);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 400;
+    font-family: 'Hanalei', cursive;
+    color: #486452;
+
+}
+
+.scores {
+    font-family: 'Hanalei', cursive;
+}
+
+.under-title, .play-again, .credits, .round-number, .counter, .mid-text, .play-again, .computer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.under-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #7D6D6C;
+    text-align: center;
+    font-style: normal;
+}
+
+.round-number {
+    font-size: 32px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #486452;
+
+}
+
+.score-name {
+    display: flex;
+    justify-content: space-around;
+    color: #DA9896;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.score-number {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.brown-box {
+    width: 200px;
+    height: 300px;
+    border: 3px solid #cbbebd;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.play-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.top-text {
+    margin-bottom: 40px;
+}
+
+.mid-text {
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.player-choice-button {
+    width: 60px;
+    height: auto;
+    transition: 0.07s;
+}
+
+.player-choice-button:hover {
+    transform: scale(1.2);
+}
+
+.choice1, .choice2 {
+    width: 300px;
+}
+
+.computer {
+    height: 53.406px;
+    width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#comp-choice {
+    position: relative;
+    left: 20px;
+}
+
+.play-again {
+    display: none;
+    position: relative;
+    top: -80px;
+    left: 35px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.credits {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 100px;
+    color: #486452;
+}
