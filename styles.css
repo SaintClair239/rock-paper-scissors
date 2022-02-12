@@ -47,6 +47,10 @@ body {
 
 }
 
+.middle-text {
+    width: 173px;
+}
+
 .score-name {
     display: flex;
     justify-content: space-around;
@@ -90,6 +94,7 @@ body {
     font-size: 18px;
     font-weight: 900;
     font-style: normal;
+    text-align: center;
 }
 
 
